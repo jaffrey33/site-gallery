@@ -8,10 +8,6 @@ export type ShowcaseSite = {
   featured?: boolean;
 };
 
-/**
- * Edit this list to showcase your sites. Add as many entries as you need.
- * Optional `featured: true` surfaces a site in the hero strip.
- */
 export const showcaseSites: ShowcaseSite[] = [
   {
     id: "sample-1",
@@ -36,5 +32,13 @@ export const showcaseSites: ShowcaseSite[] = [
     description: "Locally owned and operated, we focus on employing and upskilling tangata whenua and community members.",
     url: "https://kaitiaki-security.vercel.app/",
     tags: ["Demo", "Next.js"],
-  }
+  },
+  {
+    id:"sample-4",
+    title:"Bfhomes",
+    description:"Affordable, quality, warm and healthy homes, an ideal first home, extension or rental.",
+    url:"bfhomes.vercel.app/",
+    tags:["Demo", "Next.js"]
+  },
+  
 ];
