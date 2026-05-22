@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import type { ShowcaseSite } from "@/data/sites";
+import Image from "next/image";
 
 function SiteCard({ site }: { site: ShowcaseSite }) {
   return (
@@ -19,7 +20,7 @@ function SiteCard({ site }: { site: ShowcaseSite }) {
             </svg>
           </div>
 
-          <p className="line-clamp-3 flex-1 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
+          <p className="line-clamp-2 flex-1 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
             {site.description}
           </p>
           {site.tags?.length ? (
@@ -34,8 +35,16 @@ function SiteCard({ site }: { site: ShowcaseSite }) {
               ))}
             </div>
           ) : null}
-
         </div>
+        <div className="h-15"/>
+        <Image
+          src={site.imgSrc || "/placeholder.png"}
+          alt={`Screenshot of ${site.title}`}
+          width={600}
+          height={400}
+          className="w-64 h-40 border group-hover:scale-105 group-hover:-rotate-2 transition-transform 
+          absolute -right-16 -bottom-22 rounded-md -rotate-5"
+        />
       </article>
     </a>
   );
@@ -78,7 +87,7 @@ export function SiteGallery({ sites }: { sites: ShowcaseSite[] }) {
           </label>
           <div>
             <h2 className="text-sm font-semibold uppercase tracking-widest text-zinc-500 dark:text-zinc-400">
-              Your sites
+              My sites
             </h2>
             <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
               {filtered.length} of {sites.length} shown
