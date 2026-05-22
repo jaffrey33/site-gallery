@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website
 
-## Getting Started
+A modern portfolio website showcasing my recent works, ongoing projects, experiments, and creative process.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This site serves as a personal digital space where I document:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Recent completed projects
+- Ongoing developments
+- UI/UX experiments
+- Web applications
+- Creative coding works
+- Future ideas and concepts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The goal is to create a clean and interactive experience that reflects both technical skills and design approach.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+##  Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Responsive modern design
+- Smooth animations and transitions
+- Featured projects section
+- Ongoing works showcase
+- Project detail pages
+- Tech stack highlights
+- Contact section
+- Fast and optimized performance
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+##  Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Possible technologies used:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- HTML5
+- CSS3 / Tailwind CSS
+- JavaScript / TypeScript
+- React / Next.js
+
+---
+
+##  Sections
+
+### Home
+A strong introduction and visual identity.
+
+### Recent Works
+Showcase of completed and polished projects.
+
+### Ongoing Projects
+Current builds, prototypes, and active experiments.
+
+### Contact
+Ways to connect and collaborate.
+
+---
+
+##  Design Direction
+
+- Minimalist layout
+- Smooth interactions
+- Modern typography
+- Clean spacing
+- Subtle gradients and glow effects
+- Developer-focused aesthetic
+
+---
+
+## Goals
+
+- Build a professional online presence
+- Document progress publicly
+- Showcase both finished and unfinished works
+- Create opportunities for collaboration
+- Continuously improve frontend and design skills
+
+---
+
+##  Future Improvements
+
+- Blog integration
+- CMS support
+- Interactive 3D elements
+- Case studies
+- Project filtering
+- Multi-language support
+
+---
+
+## License
+
+This project is open for inspiration and learning purposes.
+
+---
+
+## Closing
+
+Thanks for visiting the portfolio.
+
+More projects and experiments coming soon.
