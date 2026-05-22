@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Site gallery — showcase",
+  title: "Site gallery - showcase",
   description: "Single-page gallery of shipped websites and demos.",
 };
 
