@@ -36,9 +36,9 @@ function SiteCard({ site }: { site: ShowcaseSite }) {
             </div>
           ) : null}
         </div>
-        <div className="h-15"/>
+        <div className="h-15" />
         <Image
-          src={site.imgSrc || "/placeholder.png"}
+          src={site.imgSrc || "/github.webp"}
           alt={`Screenshot of ${site.title}`}
           width={600}
           height={400}
@@ -62,15 +62,24 @@ export function SiteGallery({ sites }: { sites: ShowcaseSite[] }) {
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    const list = sites.filter((s) => {
-      if (activeTag && !(s.tags?.includes(activeTag) ?? false)) return false;
-      if (!q) return true;
-      const hay = `${s.title} ${s.description} ${s.tags?.join(" ") ?? ""}`.toLowerCase();
-      return hay.includes(q);
-    });
-    return [...list].sort((a, b) => Number(!!b.featured) - Number(!!a.featured));
-  }, [sites, query, activeTag]);
 
+    return sites
+      .filter((s) => {
+        // Show all tags when none is selected
+        const matchesTag =
+          !activeTag || (s.tags?.includes(activeTag) ?? false);
+
+        // Show all data when search is empty
+        const matchesSearch =
+          !q ||
+          `${s.title} ${s.description} ${s.tags?.join(" ") ?? ""}`
+            .toLowerCase()
+            .includes(q);
+
+        return matchesTag && matchesSearch;
+      })
+      .sort((a, b) => Number(!!b.featured) - Number(!!a.featured));
+  }, [sites, query, activeTag]);
   return (
     <div className="mx-auto flex w-full max-w-6xl flex-col gap-12 px-4 pb-20 pt-8 sm:px-6 lg:px-8">
       <section className="space-y-6">
