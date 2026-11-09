@@ -12,7 +12,7 @@ export const showcaseSites: ShowcaseSite[] = [
     {
     id: "sample-11",
     title: "Property Scraper",
-    description: "We believe in fair pricing for exceptional results. See the difference our professional water blasting makes.",
+    description: "A scraper that collects property listing data and turns it into structured, searchable results.",
     url: "https://github.com/jaffrey33/scraper",
     tags: ["Deploy", "React"],
     imgSrc: ""
@@ -23,11 +23,12 @@ export const showcaseSites: ShowcaseSite[] = [
     description: "We believe in fair pricing for exceptional results. See the difference our professional water blasting makes.",
     url: "https://freemanwaterblasting.co.nz/",
     tags: ["Deploy", "React"],
+    featured: true,
     imgSrc: "/freeman.png"
   },
   {
     id: "sample-2",
-    title: "Kuro Raostery",
+    title: "Kuro Roastery",
     description: "Carefully sourced and masterfully roasted to perfection. Experience the art of Japanese coffee craftsmanship.",
     url: "https://kuro-roastery.vercel.app/",
     tags: ["Demo", "Next.js"],
@@ -39,6 +40,7 @@ export const showcaseSites: ShowcaseSite[] = [
     description: "A comprehensive real estate platform with property listings, agent profiles, and virtual tours.",
     url: "https://www.ylpm.co.nz/",
     tags: ["Deploy", "React"],
+    featured: true,
     imgSrc: "/ylpm.png"
   },
   {

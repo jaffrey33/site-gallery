@@ -13,9 +13,9 @@ export default function Home() {
 
             <div>
               <ul className="text-xs text-neutral-500 tracking-widest flex gap-4">
-                <a href="https://github.com/jaffrey33" target="_blank" rel="noopener noreferrer"><li>Github</li></a>
-                <a href="https://www.linkedin.com/in/jaffrey-musin/" target="_blank" rel="noopener noreferrer"><li>LinkedIn</li></a>
-                <a href="mailto:jaffreymusin33@gmail.com" target="_blank" rel="noopener noreferrer"><li>Email</li></a>
+                <li><a href="https://github.com/jaffrey33" target="_blank" rel="noopener noreferrer">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/jaffrey-musin/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="mailto:jaffreymusin33@gmail.com" target="_blank" rel="noopener noreferrer">Email</a></li>
               </ul>
             </div>
           </div>
@@ -27,7 +27,7 @@ export default function Home() {
             Jaffrey Musin<span className="text-slate-500">.</span>
           </h1>
           <p style={{ animation: 'fadeUp 1s 0.5s ease forwards',}} className="text-neutral-400 tracking-widest max-w-md text-center text-sm opacity-0 leading-tight">
-            Full Stack Developer with 2 years of experience building web applications
+            Full Stack Developer with 3 years of experience building web applications
           </p>
           <Link style={{ animation: 'fadeUp 1s 0.7s ease forwards',}} href="/gallery" className="block mt-6 text-center text-sm font-medium text-neutral-500 hover:text-neutral-700 opacity-0 leading-relaxed">
             View my work

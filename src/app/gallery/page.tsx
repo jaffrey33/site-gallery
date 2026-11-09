@@ -28,9 +28,9 @@ function Gallery() {
               Every site I ship, in one calm place.
             </h1>
             <ul className="text-xs text-neutral-500 tracking-widest flex gap-4">
-              <a href="https://github.com/jaffrey33" target="_blank" rel="noopener noreferrer"><li>Github</li></a>
-              <a href="https://www.linkedin.com/in/jaffrey-musin/" target="_blank" rel="noopener noreferrer"><li>LinkedIn</li></a>
-              <a title="jaffreymusin33@gmail.com" href="mailto:jaffreymusin33@gmail.com" target="_blank" rel="noopener noreferrer"><li>Email</li></a>
+              <li><a href="https://github.com/jaffrey33" target="_blank" rel="noopener noreferrer">Github</a></li>
+              <li><a href="https://www.linkedin.com/in/jaffrey-musin/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+              <li><a title="jaffreymusin33@gmail.com" href="mailto:jaffreymusin33@gmail.com" target="_blank" rel="noopener noreferrer">Email</a></li>
             </ul>
 
           </div>
