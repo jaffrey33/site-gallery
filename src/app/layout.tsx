@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jaffrey Musin — Full Stack Developer",
+  title: "Jaffrey Musin | Full Stack Developer",
   description: "Portfolio of Jaffrey Musin, a full stack developer building websites and web apps with Next.js, React and TypeScript.",
 };
 
